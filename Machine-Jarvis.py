@@ -1,24 +1,19 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 
 import requests
 import pdb # Debugging 
 import sys 
-<<<<<<< HEAD
-=======
-
->>>>>>> d70360ee25f0ebb07a22af384b0abf9360dec2ce
 import signal
 import time 
 import threading
 
 from pwd import *
 
-<<<<<<< HEAD
 def def_handler(sing, frame):
     print("\n[!] Saliendo...")
     sys.exit(1)
     
-# Crlt+C
+# Ctrl+C
 signal.signal(signal.SIGINT, def_handler)
 
 # Variables globales
@@ -33,15 +28,3 @@ if __name__ == '__main__':
 
     makeRequest()    
         
-=======
-def def_
-
-
-#Crlt+C
-def makeRequest( ):
-
-if __name__ == '__main__':
-
-    makeRequest( )
-    
->>>>>>> d70360ee25f0ebb07a22af384b0abf9360dec2ce
